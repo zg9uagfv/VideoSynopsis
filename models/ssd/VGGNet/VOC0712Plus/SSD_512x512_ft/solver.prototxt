@@ -1,0 +1,24 @@
+train_net: "models/VGGNet/VOC0712Plus/SSD_512x512_ft/train.prototxt"
+test_net: "models/VGGNet/VOC0712Plus/SSD_512x512_ft/test.prototxt"
+test_iter: 10991
+test_interval: 160000
+base_lr: 5e-05
+display: 10
+max_iter: 160000
+lr_policy: "multistep"
+gamma: 0.2
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 40000
+snapshot_prefix: "models/VGGNet/VOC0712Plus/SSD_512x512_ft/VGG_VOC0712Plus_SSD_512x512_ft"
+solver_mode: GPU
+device_id: 0
+debug_info: false
+snapshot_after_train: true
+test_initialization: false
+average_loss: 10
+stepvalue: 120000
+stepvalue: 160000
+iter_size: 1
+type: "SGD"
+

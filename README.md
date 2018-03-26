@@ -3,6 +3,9 @@
 ## 环境
 1.  ubuntu16.04 
 2.  cmake version 3.10.2
+3.  opencv-3.4.0
+4.  dlib-19.9
+5.  cuda8.0 cudnn6
 
 
 ## 介绍

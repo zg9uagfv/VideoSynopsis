@@ -6,6 +6,7 @@
 3.  opencv-3.4.0
 4.  dlib-19.9
 5.  cuda8.0 cudnn6
+6.  protobuf-3.5.1
 
 
 ## 介绍

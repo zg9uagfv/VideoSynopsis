@@ -14,6 +14,6 @@
 
 注意:
 1.  SSD的模型文件可以到https://github.com/weiliu89/caffe/tree/ssd进行下载。
-2.  由于cuda等软件版本的差异，该源码**缺少caffe SSD的lib文件**，请到https://github.com/weiliu89/caffe/tree/ssd下编译caffe库文件。
+2.  由于cuda等软件版本的差异，请到 https://github.com/weiliu89/caffe/tree/ssd 下编译库文件，并替换caffe的头文件等。
 
 
